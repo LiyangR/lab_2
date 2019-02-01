@@ -5,12 +5,12 @@
 #Problem 1 Code:
 #Make sure to document how you are solving each problem!
 #1.Accept a regular expression & file name from the user with a prompt
-#echo "Enter regex: "
-#read regex
-#echo "Enter the file name: "
-#read filename
+echo "Enter regex: "
+read regex
+echo "Enter the file name: "
+read filename
 #2.Feed the user's regular expression into grep and run into the user's chosen file
-#grep $regex $filename
+grep $regex $filename
 #3.Hardcode some grep command calls which will
 	#1.Count the number of phone numbers in regex_practice.txt
 echo "There are "
